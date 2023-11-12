@@ -1,0 +1,97 @@
+.content-section {
+    height: 100%;
+    background: rgb(59,63,71);
+    background: linear-gradient(130deg, rgba(59,63,71,255) 20%, rgba(25,26,29,1) 76%, rgba(5,6,7,1) 88%);   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    padding-top: 40px;
+    padding-left: 60px;
+}
+
+.content-section > .left-content-section {
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+}
+
+.content-section > .left-content-section h1 {
+    font-weight: 300;
+    color: #bcbec1;
+    font-size: 2.6em;
+    line-height: 50px;
+}
+
+.content-section > .left-content-section p {
+    font-size: 2.1em;
+    font-weight: 600;
+    color: #b2b0ae;
+    line-height: 50px;
+}
+
+.content-section > .left-content-section > .button-left-content-section {
+    width: 510px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -180px; 
+}
+
+.content-section > .left-content-section > .button-left-content-section button {
+    padding: 20px;
+    font-size: 2em;
+}
+
+.content-section > .left-content-section > .button-left-content-section > .button-sing-up button {
+    background-color: #4bce79;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.content-section > .left-content-section > .button-left-content-section > .button-sing-up button:hover {
+    background-color: #258a47;
+    color: white;
+}
+
+.content-section > .left-content-section > .button-left-content-section > .button-sing-up button:active {
+    transform: translateY(0.3rem);
+}
+
+.content-section > .left-content-section > .button-left-content-section > .button-learn-more button {
+    background-color: #111111;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.content-section > .left-content-section > .button-left-content-section > .button-learn-more button:hover {
+    background-color: #444857;
+    color: white;
+}
+
+.content-section > .left-content-section > .button-left-content-section > .button-learn-more button:active {
+    transform: translateY(0.3rem);
+}
+
+.content-section > .right-content-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 4px;
+}
+
+.right-content-section > .text-right-content-section p {
+    color: white;
+    font-size: 1.3em;
+    margin-bottom: 0px;
+}
+
+.content-section > .right-content-section > .image-right-content-section img{
+    width: 710px;
+    height: 100%;
+    box-shadow: -4px 20px 20px 15px rgba(0, 0, 0, 0.3);
+}

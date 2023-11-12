@@ -1,0 +1,28 @@
+.footer {
+    background-color: #191a1d;
+    color: #cbcbcb;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    height: 130px;
+}
+
+.footer-gradient-line {
+    background: rgb(51,54,61);
+    background: linear-gradient(60deg, rgba(51,54,61,255) 0%, rgba(25,26,29,1) 76%, rgba(5,6,7,1) 88%);
+    padding-top: 8px;
+}
+
+.footer > .footer-columns {
+    background-color: #36383f;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+.footer > .footer-columns > .footer-column {
+    color: white;
+    font-size: 1.3em;
+    width: 100%;
+    border: 1.7px solid #676767;
+    padding: 12px 64px;
+}
